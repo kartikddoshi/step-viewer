@@ -1,0 +1,7 @@
+/build/
+/dist/
+/deps/
+.vs/
+*.user
+__pycache__/
+*.log

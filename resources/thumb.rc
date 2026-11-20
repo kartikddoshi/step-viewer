@@ -1,0 +1,24 @@
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_DLL
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "FileDescription", "STEP Viewer thumbnail provider"
+      VALUE "FileVersion", "1.0.0"
+      VALUE "ProductName", "STEP Viewer"
+      VALUE "ProductVersion", "1.0.0"
+      VALUE "OriginalFilename", "StepThumb.dll"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
