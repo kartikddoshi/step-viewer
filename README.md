@@ -156,7 +156,7 @@ Bug reports and pull requests are welcome. If a STEP file doesn't open, renders 
 - **STEP Viewer** source code: [MIT](LICENSE).
 - **Open CASCADE Technology**: LGPL 2.1 with the OCCT exception.
 - **Qt 6**: LGPL 3.
-- Both libraries are linked dynamically, and their license texts ship in the `licenses` folder of every download.
+- Both libraries are linked dynamically, and their license texts ship in the `licenses` folder of every download. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 - The prebuilt OpenCASCADE binaries also bring FreeType, FreeImage, oneTBB, jemalloc, FFmpeg and OpenVR DLLs. FFmpeg and OpenVR are never used by this app. Rebuilding OpenCASCADE with `USE_FFMPEG=OFF USE_OPENVR=OFF` would drop about 20 MB.
 - `samples/screw.step` and `samples/linkrods.step` come from the Open CASCADE sample data.
 
